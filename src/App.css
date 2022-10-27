@@ -124,3 +124,36 @@
   width: 40px;
   height: 20px;
 }
+
+.foot {
+
+  display: none;
+}
+
+@media(min-width:700px) {
+
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px;
+  }
+
+}
+
+.zuri {
+
+  font-weight: bold;
+  font-size: large;
+}
+
+.HNG {
+
+  color: gray;
+  font-size: medium;
+}
+
+.foot-img {
+  
+  width: 100px;
+  height: 30px;
+}

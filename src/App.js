@@ -63,6 +63,20 @@ function App() {
 
       </section>
 
+      
+
+      {/* footer section */}
+
+      <footer className="foot">
+
+        <p className="zuri">Zuri Internship</p>
+
+        <p className="HNG">HNG Internship 9 Frontend Task</p>
+
+        <img className="foot-img" src="./assets/Ingressive-for-good.png" alt=""/>
+
+      </footer>
+
     </div>
 
   );
