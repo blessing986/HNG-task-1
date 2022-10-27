@@ -49,6 +49,18 @@ function App() {
 
         {/* The links section */}
 
+
+
+        <div className="icons">
+
+          {/* icons */}
+
+          <img className="slack" src="./assets/slack_icon.jpg" alt="" />
+
+          <img src="./assets/github-icon.png" alt="" />
+
+        </div>
+
       </section>
 
     </div>
