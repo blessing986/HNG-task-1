@@ -27,6 +27,28 @@ function App() {
 
         {/* profile section ends */}
 
+
+
+        {/* The links section */}
+
+        <div>
+
+          <a href="https://twitter.com/_bleccze_"> <button className="btns" id="btn__zuri">Twitter Link</button> </a>
+
+          <a href="https://training.zuri.team/"> <button className="btns" id="btn__zuri">Zuri Team</button> </a>
+
+          <a href=" http://books.zuri.team "> <button className="btns" id="books">Zuri Books</button> </a>
+
+          <a href="https://books.zuri.team"> <button className="btns" id="book__python">Python Books</button> </a>
+
+          <a href="https://background.zuri.team"> <button className="btns" id="pitch">Background Check for Coders</button> </a>
+
+          <a href="https://books.zuri.team/design-rules"> <button className="btns" id="book__design">Design Books</button> </a>
+
+        </div>
+
+        {/* The links section */}
+
       </section>
 
     </div>
