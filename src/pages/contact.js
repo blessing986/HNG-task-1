@@ -22,7 +22,7 @@ function contact() {
 
                         <div className="md:flex">
 
-                            <div className="mr-6">
+                            <div className="md:mr-6 mr-0">
 
                                 <label for="first_name" className="font-semibold text-gray-700">First name</label>
 
