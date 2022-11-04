@@ -27,7 +27,7 @@ function contact() {
                                 <label for="first_name" className="font-semibold text-gray-700">First name</label>
 
                                 <input type="text" placeholder="Enter your first name" id="first_name"
-                                    className="w-full border border-gray-300 rounded-lg py-3 pl-4 pr-20 mt-2" />
+                                    className="w-full border border-gray-300 rounded-lg py-3 pl-4 pr-20 mt-2" required />
 
                             </div>
 
@@ -36,7 +36,7 @@ function contact() {
                                 <label for="last_name" className="font-semibold text-gray-700">Last name</label>
 
                                 <input type="text" placeholder="Enter your last name" id="last_name"
-                                    className="w-full border border-gray-300 rounded-lg py-3 pl-4 pr-20 mt-2" />
+                                    className="w-full border border-gray-300 rounded-lg py-3 pl-4 pr-20 mt-2" required />
 
                             </div>
 
@@ -77,8 +77,20 @@ function contact() {
 
                 </div>
 
-
             </section>
+
+            {/* footer section */}
+
+            <footer className="foot">
+
+                <p className="zuri">Zuri Internship</p>
+
+                <p className="HNG">HNG Internship 9 Frontend Task</p>
+
+                <img className="foot-img" src="./assets/Ingressive-for-good.png" alt="" />
+
+            </footer>
+
         </div>
     );
 
