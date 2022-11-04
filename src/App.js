@@ -48,7 +48,7 @@ function App() {
 
           <button className="btns" id="book__design">
 
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/contact">Contact Me</Link>
 
           </button>
 
