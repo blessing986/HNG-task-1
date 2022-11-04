@@ -1,5 +1,6 @@
-import React from "react";
-import './App.css';
+import "./App.css";
+import { Link } from 'react-router-dom';
+import contact from "./pages/contact";
 
 function App() {
 
@@ -45,6 +46,12 @@ function App() {
 
           <a href="https://books.zuri.team/design-rules"> <button className="btns" id="book__design">Design Books</button> </a>
 
+          <button className="btns" id="book__design">
+
+            <Link to="/contact">Contact Us</Link>
+
+          </button>
+
         </div>
 
         {/* The links section */}
@@ -63,7 +70,7 @@ function App() {
 
       </section>
 
-      
+
 
       {/* footer section */}
 
@@ -73,7 +80,7 @@ function App() {
 
         <p className="HNG">HNG Internship 9 Frontend Task</p>
 
-        <img className="foot-img" src="./assets/Ingressive-for-good.png" alt=""/>
+        <img className="foot-img" src="./assets/Ingressive-for-good.png" alt="" />
 
       </footer>
 
