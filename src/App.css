@@ -162,3 +162,7 @@
   width: 100px;
   height: 30px;
 }
+
+button:disabled {
+  opacity: 0.35;
+}
