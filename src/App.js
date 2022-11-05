@@ -46,7 +46,7 @@ function App() {
 
           <a href="https://books.zuri.team/design-rules"> <button className="btns" id="book__design">Design Books</button> </a>
 
-          <button className="btns" id="book__design">
+          <button className="btns" id="contact">
 
             <Link to="/contact">Contact Me</Link>
 
